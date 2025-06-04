@@ -25,6 +25,13 @@
   --nav-dropdown-hover-color: #ff4a17; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
+/* Imágenes */
+.img {
+  object-fit: cover;
+  width: auto;
+  height: 700px;
+}
+
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
@@ -71,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: white;
   font-family: var(--heading-font);
 }
 
