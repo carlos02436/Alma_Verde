@@ -38,7 +38,7 @@
         <ul>
           <li><a href="#hero" class="active">Inicio</a></li>
           <li><a href="#about">Nosotros</a></li>
-          <li><a href="#services">Servicios</a></li>          
+          <li><a href="#services">Servicios</a></li>
           <li><a href="#testimonials">Testimonios</a></li>
           <li><a href="#portfolio">Portafolio</a></li>
           <li><a href="#team">Equipo</a></li>
@@ -47,7 +47,7 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <a class="cta-btn" href="Plan_viajero.html">Solicita tu Plan Viajero</a>
+      <a class="cta-btn" href="Plan_viajero.html">Tu Plan</a>
     </div>
   </header>
 
@@ -85,7 +85,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5><strong>ZONA HOTELERA</strong></h5>
               <p><em>Disfruta de una amplia gama de Hoteles, con excelentes servicios y atención a sus
-                clientes.</em></p>
+                  clientes.</em></p>
             </div>
           </div>
         </div>
@@ -816,6 +816,13 @@
     const carousel = new bootstrap.Carousel(myCarousel, {
       interval: 5000, // tiempo en milisegundos (5 segundos)
       ride: 'carousel'
+    });
+  </script>
+
+  <!-- Script para el menú móvil -->
+  <script>
+    document.querySelector('.mobile-nav-toggle').addEventListener('click', function () {
+      document.getElementById('navmenu').classList.toggle('active');
     });
   </script>
 
