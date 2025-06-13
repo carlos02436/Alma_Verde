@@ -1843,4 +1843,11 @@ section,
   color: var(--accent-color);
 }
 
+.cuadro {
+  transition: all 0.3s ease-in-out;
+}
 
+.cuadro:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
