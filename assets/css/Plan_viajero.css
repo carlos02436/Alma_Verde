@@ -1871,19 +1871,20 @@ section,
         border-color: #ff4a17;
     }
 
-.custom-btn {
-    border: 2px solid #ff4a17;
-    background-color: transparent;
+  .btn-1 {
+    background-color: white;
     color: #ff4a17;
-    font-weight: normal;
-    width: 150px;
-    margin: 0 auto;
-    transition: background 0.2s, color 0.2s, font-weight 0.2s; 
-}
+    font-weight: 700;
+    text-shadow: 0 2px 16px rgba(46, 139, 87, 0.2);
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+  }
 
-.custom-btn:hover,
-.custom-btn:focus {
+  .btn-1:hover {
+    transform: scale(1.05);
     background-color: #ff4a17;
     color: white;
-    border-color: #ff4a17;
-}
+  }

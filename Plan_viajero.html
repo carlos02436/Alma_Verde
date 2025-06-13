@@ -51,193 +51,203 @@
     </div>
   </header>
 
-    <main class="main">
+  <main class="main">
 
-        <!-- Page Title -->
-        <div class="page-title dark-background" data-aos="fade"
-            style="background-image: url(assets/img/page-title-bg.webp);">
-            <div class="container position-relative">
-                <h1>¡Vive la experiencia Green Soul!</h1>
-                <p>Descubre destinos únicos y reserva tu aventura soñada con solo un clic.</p>
-            </div>
-        </div><!-- End Page Title -->
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade"
+      style="background-image: url(assets/img/page-title-bg.webp);">
+      <div class="container position-relative">
+        <h1>¡Vive la experiencia Green Soul!</h1>
+        <p>Descubre destinos únicos y reserva tu aventura soñada con solo un clic.</p>
+      </div>
+    </div><!-- End Page Title -->
 
-        <!-- Sección Formulario -->
-        <div class="container my-5" data-aos="fade-up">
-            <div class="row justify-content-center align-items-center">
-            <!-- Carrusel de imágenes -->
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div id="planCarrusel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#planCarrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
-                    <button type="button" data-bs-target="#planCarrusel" data-bs-slide-to="1" aria-label="Imagen 2"></button>
-                    <button type="button" data-bs-target="#planCarrusel" data-bs-slide-to="2" aria-label="Imagen 3"></button>
-                </div>
-                <div class="carousel-inner rounded shadow">
-                    <div class="carousel-item active">
-                        <img src="assets/img/imagen4.jpg" class="d-block w-100" alt="Destino 1" style="height:780px; object-fit:cover;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/imagen5.jpg" class="d-block w-100" alt="Destino 2" style="height:780px; object-fit:cover;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/imagen6.jpg" class="d-block w-100" alt="Destino 3" style="height:780px; object-fit:cover;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/imagen7.jpg" class="d-block w-100" alt="Destino 3" style="height:780px; object-fit:cover;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/imagen8.jpg" class="d-block w-100" alt="Destino 3" style="height:780px; object-fit:cover;">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#planCarrusel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#planCarrusel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
-                </div>
+    <!-- Sección Formulario -->
+    <div class="container my-5" data-aos="fade-up">
+      <div class="row justify-content-center align-items-center">
+        <!-- Carrusel de imágenes -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div id="planCarrusel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#planCarrusel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Imagen 1"></button>
+              <button type="button" data-bs-target="#planCarrusel" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+              <button type="button" data-bs-target="#planCarrusel" data-bs-slide-to="2" aria-label="Imagen 3"></button>
             </div>
-            <!-- Formulario de solicitud de plan de viaje -->
-            <div class="col-lg-6">
-                <div class="card shadow border-0">
-                <div class="card-body">
-                    <h3 class="card-title mb-4 text-center" data-aos="zoom-in" data-aos-delay="200" style="font-weight:700; color:#ff4a17; text-shadow: 0 2px 16px rgba(46,139,87,0.2); letter-spacing:1px;">
-                    <span class="d-inline-block animate__animated animate__pulse animate__infinite fw-bold"><em>SOLICITAR PLAN DE VIAJE</em></span>
-                    </h3>
-                    <form>
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre Completo</label>
-                        <input type="text" class="form-control" id="nombre" name="nombre" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="correo" class="form-label">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="correo" name="correo" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="telefono" class="form-label">Teléfono</label>
-                        <input type="tel" class="form-control" id="telefono" name="telefono" style="width: 180px;" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="destino" class="form-label">Destino de Interés</label>
-                        <input type="text" class="form-control" id="destino" name="destino" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="fecha" class="form-label">Fecha de Viaje</label>
-                        <input type="date" class="form-control" id="fecha" name="fecha" style="width: 180px;" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="personas" class="form-label">Número de Personas</label>
-                        <input type="number" class="form-control" id="personas" name="personas" min="1" style="width: 100px;" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="comentarios" class="form-label">Comentarios Adicionales</label>
-                        <textarea class="form-control" id="comentarios" name="comentarios" rows="3"></textarea>
-                    </div>
-                    <div class="d-grid">
-                        <button type="submit" class="btn custom-btn">Solicitar Plan</button>
-                    </div>
-                    </form>
-                </div>
-                </div>
+            <div class="carousel-inner rounded shadow">
+              <div class="carousel-item active">
+                <img src="assets/img/imagen4.jpg" class="d-block w-100" alt="Destino 1"
+                  style="height:780px; object-fit:cover;">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/imagen5.jpg" class="d-block w-100" alt="Destino 2"
+                  style="height:780px; object-fit:cover;">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/imagen6.jpg" class="d-block w-100" alt="Destino 3"
+                  style="height:780px; object-fit:cover;">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/imagen7.jpg" class="d-block w-100" alt="Destino 3"
+                  style="height:780px; object-fit:cover;">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/imagen8.jpg" class="d-block w-100" alt="Destino 3"
+                  style="height:780px; object-fit:cover;">
+              </div>
             </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#planCarrusel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#planCarrusel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
         </div>
-        <!-- Animaciones CSS para el título -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- Formulario de solicitud de plan de viaje -->
+        <div class="col-lg-6">
+          <div class="card shadow border-0">
+            <div class="card-body">
+              <h3 class="card-title mb-4 text-center" data-aos="zoom-in" data-aos-delay="200"
+                style="font-weight:700; color:#ff4a17; text-shadow: 0 2px 16px rgba(46,139,87,0.2); letter-spacing:1px;">
+                <span class="d-inline-block animate__animated animate__pulse animate__infinite fw-bold"><em>SOLICITAR
+                    PLAN DE VIAJE</em></span>
+              </h3>
+              <form>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre Completo</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                  <label for="correo" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="correo" name="correo" required>
+                </div>
+                <div class="mb-3">
+                  <label for="telefono" class="form-label">Teléfono</label>
+                  <input type="tel" class="form-control" id="telefono" name="telefono" style="width: 180px;" required>
+                </div>
+                <div class="mb-3">
+                  <label for="destino" class="form-label">Destino de Interés</label>
+                  <input type="text" class="form-control" id="destino" name="destino" required>
+                </div>
+                <div class="mb-3">
+                  <label for="fecha" class="form-label">Fecha de Viaje</label>
+                  <input type="date" class="form-control" id="fecha" name="fecha" style="width: 180px;" required>
+                </div>
+                <div class="mb-3">
+                  <label for="personas" class="form-label">Número de Personas</label>
+                  <input type="number" class="form-control" id="personas" name="personas" min="1" style="width: 100px;"
+                    required>
+                </div>
+                <div class="mb-3">
+                  <label for="comentarios" class="form-label">Comentarios Adicionales</label>
+                  <textarea class="form-control" id="comentarios" name="comentarios" rows="3"></textarea>
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn custom-btn" style="    border: 2px solid #ff4a17;
+    background-color: transparent;
+    color: #ff4a17;
+    font-weight: normal;
+    width: 150px;
+    margin: 0 auto;
+    transition: background 0.2s, color 0.2s, font-weight 0.2s; ">Solicitar Plan</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Animaciones CSS para el título -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    </main>
-    <!-- SECCIÓN DE CONTACTO -->
-    <section id="contact" class="contact section">
+  </main>
+  <!-- SECCIÓN DE CONTACTO -->
+  <section id="contact" class="contact section">
 
-        <!-- Título de la Sección -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Contáctanos</h2>
-            <p>CONOCE NUESTRA UBICACIÓN</p>
+    <!-- Título de la Sección -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Contáctanos</h2>
+      <p>CONOCE NUESTRA UBICACIÓN</p>
+    </div>
+
+    <!-- Sección Información -->
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        <div class="col-lg-6 ">
+          <div class="row gy-4">
+
+            <div class="col-lg-12">
+              <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                data-aos-delay="200">
+                <i class="bi bi-geo-alt"></i>
+                <h3>Dirección</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                data-aos-delay="300">
+                <i class="bi bi-telephone"></i>
+                <h3>LLamanos</h3>
+                <p>(+57) 234 345 45 45</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                data-aos-delay="400">
+                <i class="bi bi-envelope"></i>
+                <h3>Nuestro Email</h3>
+                <p>turismoyviajes@greensoul2025.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
         </div>
 
-        <!-- Sección Información -->
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6">
+          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
             <div class="row gy-4">
-                <div class="col-lg-6 ">
-                    <div class="row gy-4">
 
-                        <div class="col-lg-12">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="200">
-                                <i class="bi bi-geo-alt"></i>
-                                <h3>Dirección</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                            </div>
-                        </div><!-- End Info Item -->
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Nombre Completo" required="">
+              </div>
 
-                        <div class="col-md-6">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="300">
-                                <i class="bi bi-telephone"></i>
-                                <h3>LLamanos</h3>
-                                <p>(+57) 234 345 45 45</p>
-                            </div>
-                        </div><!-- End Info Item -->
+              <div class="col-md-6 ">
+                <input type="email" class="form-control" name="email" placeholder="Correo Electrónico" required="">
+              </div>
 
-                        <div class="col-md-6">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="400">
-                                <i class="bi bi-envelope"></i>
-                                <h3>Nuestro Email</h3>
-                                <p>turismoyviajes@greensoul2025.com</p>
-                            </div>
-                        </div><!-- End Info Item -->
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="¿Qué quieres saber?" required="">
+              </div>
 
-                    </div>
-                </div>
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="4" placeholder="Mensaje" required=""></textarea>
+              </div>
 
-                <div class="col-lg-6">
-                    <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-                        data-aos-delay="500">
-                        <div class="row gy-4">
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Su mensaje ha sido enviado, ¡Gracias por contactarte!</div>
 
-                            <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Nombre Completo"
-                                    required="">
-                            </div>
-
-                            <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Correo Electrónico"
-                                    required="">
-                            </div>
-
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" placeholder="¿Qué quieres saber?"
-                                    required="">
-                            </div>
-
-                            <div class="col-md-12">
-                                <textarea class="form-control" name="message" rows="4" placeholder="Mensaje"
-                                    required=""></textarea>
-                            </div>
-
-                            <div class="col-md-12 text-center">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Su mensaje ha sido enviado, ¡Gracias por contactarte!</div>
-
-                                <button type="submit">ENVIAR MENSAJE</button>
-                            </div>
-
-                        </div>
-                    </form>
-                </div><!-- Fin del formulario contacto -->
+                <button type="submit">ENVIAR MENSAJE</button>
+              </div>
 
             </div>
+          </form>
+        </div><!-- Fin del formulario contacto -->
 
-        </div>
+      </div>
 
-    </section><!-- Fin de la sección Contacto -->
+    </div>
 
-    </main>
+  </section><!-- Fin de la sección Contacto -->
+
+  </main>
 
   <footer id="footer" class="footer dark-background">
 
